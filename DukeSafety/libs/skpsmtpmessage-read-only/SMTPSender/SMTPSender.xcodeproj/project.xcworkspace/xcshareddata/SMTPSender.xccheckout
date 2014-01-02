@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C828A0C-FEF9-4682-A081-664F6979B569</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SMTPSender</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4997CFC1-6D11-446E-BA5D-F07D67D517B8</key>
+		<string>http://skpsmtpmessage.googlecode.com/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SMTPSender/SMTPSender.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4997CFC1-6D11-446E-BA5D-F07D67D517B8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>4997CFC1-6D11-446E-BA5D-F07D67D517B8</key>
+		<string>http://skpsmtpmessage.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://skpsmtpmessage.googlecode.com/svn/trunk/SMTPSender/SMTPSender.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4997CFC1-6D11-446E-BA5D-F07D67D517B8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4997CFC1-6D11-446E-BA5D-F07D67D517B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>skpsmtpmessage-read-only</string>
+		</dict>
+	</array>
+</dict>
+</plist>

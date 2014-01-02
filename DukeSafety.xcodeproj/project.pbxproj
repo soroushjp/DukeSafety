@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7325F77C183F403400ECF1E7 /* duke_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7325F77B183F403400ECF1E7 /* duke_logo.png */; };
+		7325F77E183F41B900ECF1E7 /* logo_footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7325F77D183F41B900ECF1E7 /* logo_footer@2x.png */; };
+		7325F780183F424700ECF1E7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7325F77F183F424700ECF1E7 /* CFNetwork.framework */; };
+		7325F785183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7325F782183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7325F786183F489800ECF1E7 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7325F784183F489800ECF1E7 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7325F78D183F49D300ECF1E7 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7325F788183F49D300ECF1E7 /* Base64Transcoder.m */; };
+		7325F78E183F49D300ECF1E7 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7325F78A183F49D300ECF1E7 /* HSK_CFUtilities.m */; };
+		7325F78F183F49D300ECF1E7 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7325F78C183F49D300ECF1E7 /* NSData+Base64Additions.m */; };
+		7325F794183F561D00ECF1E7 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7325F793183F561D00ECF1E7 /* Images-2.xcassets */; };
+		73702FC318387CB000F2D355 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73702FC218387CB000F2D355 /* MapKit.framework */; };
+		737A60321831E6BA00972491 /* bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 737A60311831E6BA00972491 /* bg@2x.jpg */; };
+		73FA9B431831E19900E40EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FA9B421831E19900E40EF7 /* Foundation.framework */; };
+		73FA9B451831E19900E40EF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FA9B441831E19900E40EF7 /* CoreGraphics.framework */; };
+		73FA9B471831E19900E40EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FA9B461831E19900E40EF7 /* UIKit.framework */; };
+		73FA9B4D1831E19900E40EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73FA9B4B1831E19900E40EF7 /* InfoPlist.strings */; };
+		73FA9B4F1831E19900E40EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA9B4E1831E19900E40EF7 /* main.m */; };
+		73FA9B531831E19900E40EF7 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA9B521831E19900E40EF7 /* DSAppDelegate.m */; };
+		73FA9B561831E19900E40EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FA9B541831E19900E40EF7 /* Main.storyboard */; };
+		73FA9B591831E19900E40EF7 /* DSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA9B581831E19900E40EF7 /* DSMainViewController.m */; };
+		73FA9B5C1831E19900E40EF7 /* DSFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA9B5B1831E19900E40EF7 /* DSFlipsideViewController.m */; };
+		73FA9B5E1831E19900E40EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73FA9B5D1831E19900E40EF7 /* Images.xcassets */; };
+		73FA9B651831E19900E40EF7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FA9B641831E19900E40EF7 /* XCTest.framework */; };
+		73FA9B661831E19900E40EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FA9B421831E19900E40EF7 /* Foundation.framework */; };
+		73FA9B671831E19900E40EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FA9B461831E19900E40EF7 /* UIKit.framework */; };
+		73FA9B6F1831E19900E40EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73FA9B6D1831E19900E40EF7 /* InfoPlist.strings */; };
+		73FA9B711831E19900E40EF7 /* DukeSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA9B701831E19900E40EF7 /* DukeSafetyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73FA9B681831E19900E40EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73FA9B371831E19800E40EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73FA9B3E1831E19800E40EF7;
+			remoteInfo = DukeSafety;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7325F77B183F403400ECF1E7 /* duke_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duke_logo.png; sourceTree = "<group>"; };
+		7325F77D183F41B900ECF1E7 /* logo_footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_footer@2x.png"; sourceTree = "<group>"; };
+		7325F77F183F424700ECF1E7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7325F781183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSStream+SKPSMTPExtensions.h"; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		7325F782183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSStream+SKPSMTPExtensions.m"; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		7325F783183F489800ECF1E7 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKPSMTPMessage.h; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/SKPSMTPMessage.h"; sourceTree = "<group>"; };
+		7325F784183F489800ECF1E7 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKPSMTPMessage.m; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/SKPSMTPMessage.m"; sourceTree = "<group>"; };
+		7325F787183F49D300ECF1E7 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64Transcoder.h; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/Base64Transcoder.h"; sourceTree = "<group>"; };
+		7325F788183F49D300ECF1E7 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64Transcoder.m; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/Base64Transcoder.m"; sourceTree = "<group>"; };
+		7325F789183F49D300ECF1E7 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSK_CFUtilities.h; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/HSK_CFUtilities.h"; sourceTree = "<group>"; };
+		7325F78A183F49D300ECF1E7 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSK_CFUtilities.m; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/HSK_CFUtilities.m"; sourceTree = "<group>"; };
+		7325F78B183F49D300ECF1E7 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64Additions.h"; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		7325F78C183F49D300ECF1E7 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64Additions.m"; path = "libs/skpsmtpmessage-read-only/SMTPSender/Classes/NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		7325F791183F555000ECF1E7 /* Icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon~iphone.png"; path = "DukeSafety/Resources/Images/Icon~iphone.png"; sourceTree = "<group>"; };
+		7325F792183F55EE00ECF1E7 /* Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon2.png; path = DukeSafety/Resources/Images/Icon2.png; sourceTree = "<group>"; };
+		7325F793183F561D00ECF1E7 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		7325F795183F567400ECF1E7 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon3.png; path = DukeSafety/Resources/Images/icon3.png; sourceTree = "<group>"; };
+		73702FC218387CB000F2D355 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		737A60311831E6BA00972491 /* bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg@2x.jpg"; sourceTree = "<group>"; };
+		73FA9B3F1831E19900E40EF7 /* DukeSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DukeSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FA9B421831E19900E40EF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73FA9B441831E19900E40EF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73FA9B461831E19900E40EF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73FA9B4A1831E19900E40EF7 /* DukeSafety-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DukeSafety-Info.plist"; sourceTree = "<group>"; };
+		73FA9B4C1831E19900E40EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73FA9B4E1831E19900E40EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73FA9B501831E19900E40EF7 /* DukeSafety-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DukeSafety-Prefix.pch"; sourceTree = "<group>"; };
+		73FA9B511831E19900E40EF7 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		73FA9B521831E19900E40EF7 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		73FA9B551831E19900E40EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73FA9B571831E19900E40EF7 /* DSMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMainViewController.h; sourceTree = "<group>"; };
+		73FA9B581831E19900E40EF7 /* DSMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSMainViewController.m; sourceTree = "<group>"; };
+		73FA9B5A1831E19900E40EF7 /* DSFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFlipsideViewController.h; sourceTree = "<group>"; };
+		73FA9B5B1831E19900E40EF7 /* DSFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSFlipsideViewController.m; sourceTree = "<group>"; };
+		73FA9B5D1831E19900E40EF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		73FA9B631831E19900E40EF7 /* DukeSafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DukeSafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FA9B641831E19900E40EF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		73FA9B6C1831E19900E40EF7 /* DukeSafetyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DukeSafetyTests-Info.plist"; sourceTree = "<group>"; };
+		73FA9B6E1831E19900E40EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73FA9B701831E19900E40EF7 /* DukeSafetyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DukeSafetyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73FA9B3C1831E19800E40EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7325F780183F424700ECF1E7 /* CFNetwork.framework in Frameworks */,
+				73702FC318387CB000F2D355 /* MapKit.framework in Frameworks */,
+				73FA9B451831E19900E40EF7 /* CoreGraphics.framework in Frameworks */,
+				73FA9B471831E19900E40EF7 /* UIKit.framework in Frameworks */,
+				73FA9B431831E19900E40EF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FA9B601831E19900E40EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FA9B651831E19900E40EF7 /* XCTest.framework in Frameworks */,
+				73FA9B671831E19900E40EF7 /* UIKit.framework in Frameworks */,
+				73FA9B661831E19900E40EF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7325F77A183F3EE800ECF1E7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7325F781183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.h */,
+				7325F782183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.m */,
+				7325F783183F489800ECF1E7 /* SKPSMTPMessage.h */,
+				7325F784183F489800ECF1E7 /* SKPSMTPMessage.m */,
+				7325F787183F49D300ECF1E7 /* Base64Transcoder.h */,
+				7325F788183F49D300ECF1E7 /* Base64Transcoder.m */,
+				7325F789183F49D300ECF1E7 /* HSK_CFUtilities.h */,
+				7325F78A183F49D300ECF1E7 /* HSK_CFUtilities.m */,
+				7325F78B183F49D300ECF1E7 /* NSData+Base64Additions.h */,
+				7325F78C183F49D300ECF1E7 /* NSData+Base64Additions.m */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		737A602D1831E4E200972491 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				737A602E1831E4E200972491 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		737A602E1831E4E200972491 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7325F77B183F403400ECF1E7 /* duke_logo.png */,
+				737A60311831E6BA00972491 /* bg@2x.jpg */,
+				7325F77D183F41B900ECF1E7 /* logo_footer@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		73FA9B361831E19800E40EF7 = {
+			isa = PBXGroup;
+			children = (
+				7325F795183F567400ECF1E7 /* icon3.png */,
+				7325F792183F55EE00ECF1E7 /* Icon2.png */,
+				7325F791183F555000ECF1E7 /* Icon~iphone.png */,
+				73FA9B481831E19900E40EF7 /* DukeSafety */,
+				73FA9B6A1831E19900E40EF7 /* DukeSafetyTests */,
+				73FA9B411831E19900E40EF7 /* Frameworks */,
+				73FA9B401831E19900E40EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73FA9B401831E19900E40EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73FA9B3F1831E19900E40EF7 /* DukeSafety.app */,
+				73FA9B631831E19900E40EF7 /* DukeSafetyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73FA9B411831E19900E40EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7325F77F183F424700ECF1E7 /* CFNetwork.framework */,
+				73702FC218387CB000F2D355 /* MapKit.framework */,
+				73FA9B421831E19900E40EF7 /* Foundation.framework */,
+				73FA9B441831E19900E40EF7 /* CoreGraphics.framework */,
+				73FA9B461831E19900E40EF7 /* UIKit.framework */,
+				73FA9B641831E19900E40EF7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73FA9B481831E19900E40EF7 /* DukeSafety */ = {
+			isa = PBXGroup;
+			children = (
+				7325F77A183F3EE800ECF1E7 /* Libs */,
+				737A602D1831E4E200972491 /* Resources */,
+				73FA9B511831E19900E40EF7 /* DSAppDelegate.h */,
+				73FA9B521831E19900E40EF7 /* DSAppDelegate.m */,
+				73FA9B541831E19900E40EF7 /* Main.storyboard */,
+				73FA9B571831E19900E40EF7 /* DSMainViewController.h */,
+				73FA9B581831E19900E40EF7 /* DSMainViewController.m */,
+				73FA9B5A1831E19900E40EF7 /* DSFlipsideViewController.h */,
+				73FA9B5B1831E19900E40EF7 /* DSFlipsideViewController.m */,
+				73FA9B5D1831E19900E40EF7 /* Images.xcassets */,
+				7325F793183F561D00ECF1E7 /* Images-2.xcassets */,
+				73FA9B491831E19900E40EF7 /* Supporting Files */,
+			);
+			path = DukeSafety;
+			sourceTree = "<group>";
+		};
+		73FA9B491831E19900E40EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73FA9B4A1831E19900E40EF7 /* DukeSafety-Info.plist */,
+				73FA9B4B1831E19900E40EF7 /* InfoPlist.strings */,
+				73FA9B4E1831E19900E40EF7 /* main.m */,
+				73FA9B501831E19900E40EF7 /* DukeSafety-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73FA9B6A1831E19900E40EF7 /* DukeSafetyTests */ = {
+			isa = PBXGroup;
+			children = (
+				73FA9B701831E19900E40EF7 /* DukeSafetyTests.m */,
+				73FA9B6B1831E19900E40EF7 /* Supporting Files */,
+			);
+			path = DukeSafetyTests;
+			sourceTree = "<group>";
+		};
+		73FA9B6B1831E19900E40EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73FA9B6C1831E19900E40EF7 /* DukeSafetyTests-Info.plist */,
+				73FA9B6D1831E19900E40EF7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73FA9B3E1831E19800E40EF7 /* DukeSafety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73FA9B741831E19900E40EF7 /* Build configuration list for PBXNativeTarget "DukeSafety" */;
+			buildPhases = (
+				73FA9B3B1831E19800E40EF7 /* Sources */,
+				73FA9B3C1831E19800E40EF7 /* Frameworks */,
+				73FA9B3D1831E19800E40EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DukeSafety;
+			productName = DukeSafety;
+			productReference = 73FA9B3F1831E19900E40EF7 /* DukeSafety.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73FA9B621831E19900E40EF7 /* DukeSafetyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73FA9B771831E19900E40EF7 /* Build configuration list for PBXNativeTarget "DukeSafetyTests" */;
+			buildPhases = (
+				73FA9B5F1831E19900E40EF7 /* Sources */,
+				73FA9B601831E19900E40EF7 /* Frameworks */,
+				73FA9B611831E19900E40EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73FA9B691831E19900E40EF7 /* PBXTargetDependency */,
+			);
+			name = DukeSafetyTests;
+			productName = DukeSafetyTests;
+			productReference = 73FA9B631831E19900E40EF7 /* DukeSafetyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73FA9B371831E19800E40EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sofa Productions";
+				TargetAttributes = {
+					73FA9B3E1831E19800E40EF7 = {
+						DevelopmentTeam = YE4EP2NBUS;
+					};
+					73FA9B621831E19900E40EF7 = {
+						TestTargetID = 73FA9B3E1831E19800E40EF7;
+					};
+				};
+			};
+			buildConfigurationList = 73FA9B3A1831E19800E40EF7 /* Build configuration list for PBXProject "DukeSafety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73FA9B361831E19800E40EF7;
+			productRefGroup = 73FA9B401831E19900E40EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73FA9B3E1831E19800E40EF7 /* DukeSafety */,
+				73FA9B621831E19900E40EF7 /* DukeSafetyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73FA9B3D1831E19800E40EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FA9B5E1831E19900E40EF7 /* Images.xcassets in Resources */,
+				73FA9B4D1831E19900E40EF7 /* InfoPlist.strings in Resources */,
+				7325F794183F561D00ECF1E7 /* Images-2.xcassets in Resources */,
+				7325F77C183F403400ECF1E7 /* duke_logo.png in Resources */,
+				737A60321831E6BA00972491 /* bg@2x.jpg in Resources */,
+				7325F77E183F41B900ECF1E7 /* logo_footer@2x.png in Resources */,
+				73FA9B561831E19900E40EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FA9B611831E19900E40EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FA9B6F1831E19900E40EF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73FA9B3B1831E19800E40EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FA9B4F1831E19900E40EF7 /* main.m in Sources */,
+				73FA9B531831E19900E40EF7 /* DSAppDelegate.m in Sources */,
+				7325F786183F489800ECF1E7 /* SKPSMTPMessage.m in Sources */,
+				73FA9B591831E19900E40EF7 /* DSMainViewController.m in Sources */,
+				73FA9B5C1831E19900E40EF7 /* DSFlipsideViewController.m in Sources */,
+				7325F785183F489800ECF1E7 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				7325F78F183F49D300ECF1E7 /* NSData+Base64Additions.m in Sources */,
+				7325F78E183F49D300ECF1E7 /* HSK_CFUtilities.m in Sources */,
+				7325F78D183F49D300ECF1E7 /* Base64Transcoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FA9B5F1831E19900E40EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FA9B711831E19900E40EF7 /* DukeSafetyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73FA9B691831E19900E40EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73FA9B3E1831E19800E40EF7 /* DukeSafety */;
+			targetProxy = 73FA9B681831E19900E40EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73FA9B4B1831E19900E40EF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73FA9B4C1831E19900E40EF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73FA9B541831E19900E40EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73FA9B551831E19900E40EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73FA9B6D1831E19900E40EF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73FA9B6E1831E19900E40EF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73FA9B721831E19900E40EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73FA9B731831E19900E40EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73FA9B751831E19900E40EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DukeSafety/DukeSafety-Prefix.pch";
+				INFOPLIST_FILE = "DukeSafety/DukeSafety-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73FA9B761831E19900E40EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DukeSafety/DukeSafety-Prefix.pch";
+				INFOPLIST_FILE = "DukeSafety/DukeSafety-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		73FA9B781831E19900E40EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DukeSafety.app/DukeSafety";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DukeSafety/DukeSafety-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DukeSafetyTests/DukeSafetyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		73FA9B791831E19900E40EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DukeSafety.app/DukeSafety";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DukeSafety/DukeSafety-Prefix.pch";
+				INFOPLIST_FILE = "DukeSafetyTests/DukeSafetyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73FA9B3A1831E19800E40EF7 /* Build configuration list for PBXProject "DukeSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FA9B721831E19900E40EF7 /* Debug */,
+				73FA9B731831E19900E40EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73FA9B741831E19900E40EF7 /* Build configuration list for PBXNativeTarget "DukeSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FA9B751831E19900E40EF7 /* Debug */,
+				73FA9B761831E19900E40EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73FA9B771831E19900E40EF7 /* Build configuration list for PBXNativeTarget "DukeSafetyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FA9B781831E19900E40EF7 /* Debug */,
+				73FA9B791831E19900E40EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73FA9B371831E19800E40EF7 /* Project object */;
+}
