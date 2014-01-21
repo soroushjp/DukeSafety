@@ -1,7 +1,7 @@
 DukeSafety iOS App
 ================
 
-This is an open-source college campus safety app, that grabs a user's location which can be sent to police/friend/security in case of emergencies from their iPhone/iPad. It was built for the Drew Everson Memorial Safety Challenge at Duke University 2013, by Tucker Albert and Soroush Pour.
+This is an open-source college campus safety app, that grabs a user's location which can be sent to police/friend/security in case of emergencies from their iPhone/iPad. It was built by Tucker Albert and Soroush Pour for the Drew Everson Memorial Safety Challenge at Duke University 2013, sponsored by Pi Kappa Phi Mu Chapter.
 
 ##Currently it has the following functionality:
 
